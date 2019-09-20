@@ -16,12 +16,35 @@
 
 // YOU CODE HERE :) 
 
+// 
 public class ASCIIArt {
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		theBird();
+		theBird();
+
 	}
+	public static void theBird () {
+		theHead();
+		theBody();
+		theLegs();
+		extraTree();
+	}
+	public static void theHead () {
+		System.out.println(" /\\_/\\\t\t|");
+		System.out.println(" @  @ |\t\t|");
+		System.out.println("  v   \\\t\t|");
+	}
+	public static void theBody () {
+		System.out.println(" | ' '''\\\t|");
+		System.out.println(" \\' ' '' \\\t|");
+	}
+	
+	public static void theLegs () {
+		System.out.println("----v--v--------|");
+		System.out.println("  /\\/\\/\\/\\\\\t|");
+	}
+	public static void extraTree () {
+		System.out.println("\t\t|");
+	}
+	
 }
